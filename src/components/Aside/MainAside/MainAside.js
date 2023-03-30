@@ -65,6 +65,11 @@ const MainAside = () => {
                     title: 'TodoList',
                     itemId: '/todo',
                     elemBefore: () => <BsCardChecklist />,
+                },
+                {
+                    title: 'NumberCounter',
+                    itemId: '/number/counter',
+                    elemBefore: () => <BsCardChecklist />,
                 }
 
 
